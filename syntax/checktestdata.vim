@@ -10,6 +10,7 @@ endif
 
 
 " {{{ Punctuation and errors
+syntax sync fromstart
 syntax region ctdParen transparent contained start='(' end=')' contains=@ctdTestStatement
 
 syntax match ctdParenError ')'
